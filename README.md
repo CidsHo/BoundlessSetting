@@ -9,4 +9,6 @@
 ```
 <uses-feature android:name="com.oculus.feature.CONTEXTUAL_BOUNDARYLESS_APP" android:required=true>
 ```
-*注意，仅对当前应用有效。同时该方法会导致应用无法上架Meta商店，因目前该功能只对少数应用开放，上传任何包括此flag的非白名单应用都会被系统直接拒绝。*
+~*注意，仅对当前应用有效。同时该方法会导致应用无法上架Meta商店，因目前该功能只对少数应用开放，上传任何包括此flag的非白名单应用都会被系统直接拒绝。*~
+
+该方法已记录于官方开发文档：[Boundaryless](https://developer.oculus.com/documentation/unity/unity-boundaryless/)
